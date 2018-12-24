@@ -4223,7 +4223,8 @@ form textarea {
 }
 
 .black {
-  background-color: #1d1e20;
+ /* background-color: #1d1e20;  */
+  background: linear-gradient(to left, #E3003E, #A500C6);
   border-radius: 50px;
 }
 
