@@ -160,6 +160,7 @@ html body #lightbox img.zoomable.zoomed {
 .prev-lightbox-item,
 .next-lightbox-item {
   transition: background-color .4s;
+  border-radius: 50px;
 }
 
 .close-lightbox:hover,
@@ -1280,6 +1281,7 @@ body.dropdown-hovered .content {
 .button[type=submit] {
   background: #1d1e20;
   color: white;
+  border-radius: 50px;
 }
 
 .button[type=submit]:hover {
@@ -1575,6 +1577,7 @@ img.background + * {
 .image img {
   vertical-align: top;
   width: 100%;
+  border-radius: 20px;
 }
 
 .box {
@@ -2264,6 +2267,7 @@ form input, form textarea {
   font-family: "hk-grotesk", sans-serif;
   font-size: .8rem;
   -webkit-appearance: none !important;
+  border-radius: 20px;
 }
 
 form input:focus, form textarea:focus {
@@ -2274,6 +2278,7 @@ form input:focus, form textarea:focus {
 form textarea {
   height: 7rem;
   resize: vertical;
+  border-radius: 20px;
 }
 
 /* 4. Helper classes */
@@ -2606,6 +2611,7 @@ form textarea {
 @media screen and (max-width: 1600px) {
   .space-2 {
     margin: 1.4rem;
+	border-radius: 20px;
   }
 }
 
